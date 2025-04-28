@@ -66,6 +66,11 @@ public class MapStructTest {
      */
     @Test
     public void test5() {
+        System.out.println("myMyaster-----5------1");
+        System.out.println("myMyaster-----5------2");
+        System.out.println("myMyaster-----5------3");
+        System.out.println("myMyaster-----5------4");
+        System.out.println("myMyaster-----5------5");
         CarDTO carDTO = buildCarDTO();
         VehicleVO vehicleVO = CarConvert.INSTANCE.carDTO2vehicleVO(carDTO);
 

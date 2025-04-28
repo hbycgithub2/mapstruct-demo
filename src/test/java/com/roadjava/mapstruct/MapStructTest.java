@@ -119,6 +119,11 @@ public class MapStructTest {
      */
     @Test
     public void test1() {
+        System.out.println("myMaster----2------1");
+        System.out.println("myMaster----2------2");
+        System.out.println("myMaster----2------3");
+        System.out.println("myMaster----2------4");
+        System.out.println("myMaster----2------5");
         // 模拟业务构造出的CarDTO对象
        CarDTO carDTO = buildCarDTO();
        // 转化dto-vo

@@ -146,6 +146,12 @@ public class MapStructTest {
         DriverVO driverVO = new DriverVO();
         DriverDTO driverDTO = carDTO.getDriverDTO();
         driverVO.setDriverId(driverDTO.getId());
+
+        double totalPrice11 = carDTO.getTotalPrice();
+        DecimalFormat df11 = new DecimalFormat("#.00");
+        String totalPriceStr11 = df11.format(totalPrice);
+        carVO.setTotalPrice(totalPriceStr);
+
         driverVO.setFullName(driverDTO.getName());
         carVO.setDriverVO(driverVO);
 

@@ -157,6 +157,13 @@ public class MapStructTest {
      * @return
      */
     private CarDTO buildCarDTO() {
+        System.out.println("master--2---1");
+        System.out.println("master--2---2");
+        System.out.println("master--2---3");
+        System.out.println("master--2---4");
+        System.out.println("master--2---5");
+
+
         CarDTO carDTO = new CarDTO();
         carDTO.setId(330L);
         carDTO.setVin("vin123456789");

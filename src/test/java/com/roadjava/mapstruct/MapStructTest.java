@@ -150,6 +150,8 @@ public class MapStructTest {
         carVO.setDriverVO(driverVO);
 
         driverVO.setDriverId(driverDTO.getId());
+        System.out.println(11);
+        System.out.println(22);
         driverVO.setFullName(driverDTO.getName());
         carVO.setDriverVO(driverVO);
 

@@ -71,6 +71,11 @@ public class MapStructTest {
         System.out.println("master---5-------3");
         System.out.println("master---5-------4");
         System.out.println("master---5-------5");
+        System.out.println("myMyaster-----5------1");
+        System.out.println("myMyaster-----5------2");
+        System.out.println("myMyaster-----5------3");
+        System.out.println("myMyaster-----5------4");
+        System.out.println("myMyaster-----5------5");
         CarDTO carDTO = buildCarDTO();
         VehicleVO vehicleVO = CarConvert.INSTANCE.carDTO2vehicleVO(carDTO);
 
@@ -124,6 +129,11 @@ public class MapStructTest {
      */
     @Test
     public void test1() {
+        System.out.println("myMaster----2------1");
+        System.out.println("myMaster----2------2");
+        System.out.println("myMaster----2------3");
+        System.out.println("myMaster----2------4");
+        System.out.println("myMaster----2------5");
         // 模拟业务构造出的CarDTO对象
        CarDTO carDTO = buildCarDTO();
        // 转化dto-vo
@@ -162,6 +172,13 @@ public class MapStructTest {
      * @return
      */
     private CarDTO buildCarDTO() {
+        System.out.println("master--2---1");
+        System.out.println("master--2---2");
+        System.out.println("master--2---3");
+        System.out.println("master--2---4");
+        System.out.println("master--2---5");
+
+
         CarDTO carDTO = new CarDTO();
         carDTO.setId(330L);
         carDTO.setVin("vin123456789");
